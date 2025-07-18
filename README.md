@@ -220,3 +220,50 @@ print(c)    # Maggi
 ```
 
 ---
+
+## Mathematical Operators
+
+The mathematical operators in Python are :
+
+- **Addition Operator**
+- **Subtraction Operator**
+- **Multiplication Operator**
+- **Division Operator**
+- **Modulo Operator** => gives the remainder
+- **Exponentiation Operator** => compute the power of any number
+
+## String Concatenation
+
+- Concatenation means a series of interconnected things.
+- Use **+** to join two or more string
+
+```
+  a="Hii...."
+  b="Sam...."
+  print(a+b)          # Hii....Sam....
+```
+
+## Comparison Operators
+
+Comparison operators are used for comparing two values.
+
+- There are 6 comparison operators:
+  - **> (Greater Than)**
+  - **>= (Greater Than Equal To)**
+  - **< (Less Than)**
+  - **<= (Less Than Equal To)**
+  - **== (Equal)**
+  - **!= (not Equal)**
+- The result of a comparison operator is always a boolean value.
+
+## Logical Operators
+
+A logical operator is a symbol or word used to connect two or more expressions.
+
+## Types of Logical Operators
+
+Python provides three logical operators:
+
+1. and
+2. or
+3. not

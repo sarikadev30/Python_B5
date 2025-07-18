@@ -24,17 +24,19 @@ age
 city
 """
 # .............................................................................
-# name = "Sam"
-# age = 23
-# city = "NewYork"
-# print(name, age, city)
+name = "Sam"
+age = 23
+city = "NewYork"
+print(name, age, city)
 # Formated String
 # My name is Sam. I am 23 year old . I live in NewYork
 # .............................................................................
 
 # Formated String
-# print(f"My name is {name}. I am {age} year old . I live in {city}")
-
+# price=90
+print(f"My name is {name}. I am {age} year old . I live in {city}")
+# print(f"Total value of Product A: ${price}")
+#
 # .............................................................................
 
 # DATA TYPES
