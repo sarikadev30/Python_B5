@@ -267,3 +267,58 @@ Python provides three logical operators:
 1. and
 2. or
 3. not
+
+## Assignment Operators
+
+Assignment operators are used to assign values to variables.
+
+- The most common is `=`, which assigns the right-hand side value to the left-hand side variable.
+- Python also supports compound assignment operators.
+
+### Types of Assignment Operators:
+
+| Operator | Description             | Example          |
+| -------- | ----------------------- | ---------------- |
+| =        | Assign value            | a = 5            |
+| +=       | Add and assign          | a += 2 (a = a+2) |
+| -=       | Subtract and assign     | a -= 2 (a = a-2) |
+| \*=      | Multiply and assign     | a *= 3 (a = a*3) |
+| /=       | Divide and assign       | a /= 2 (a = a/2) |
+| %=       | Modulo and assign       | a %= 2 (a = a%2) |
+| //=      | Floor divide and assign | a //= 2          |
+| \*\*=    | Exponent and assign     | a \*\*= 2        |
+
+## Membership Operators
+
+Membership operators are used to test whether a value is a member of a sequence (like string, list, tuple, etc.).
+
+### Types of Membership Operators:
+
+| Operator | Description                 |
+| -------- | --------------------------- |
+| in       | Returns True if present     |
+| not in   | Returns True if not present |
+
+### Note: Membership checks are case-sensitive.
+
+## Conditional Statements
+
+Conditional Statements in Python perform different computations or actions depending on whether a specific Boolean constraint evaluates to true or false.
+
+- Conditional statements are used **to decide the flow of execution based on different conditions**. If a condition is true, you can perform one action and if the condition is false, you can perform another action.
+- Through Conditional Statements, we can control which code needs to run or which code will not run.
+
+For Example: the traffic light controls the flow of vehicles on the road.
+
+- Depending upon the color of the light, the actions happened.
+- If the light is green, then it is a signal to move.
+- If the light is red then it is a signal to stop.
+
+## Different Types of Conditional Statements
+
+There are four types of conditional statements in Python.
+
+1. If statement
+2. If…Else statement
+3. If…Elif…Else statement
+4. Nested If
