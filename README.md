@@ -322,3 +322,24 @@ There are four types of conditional statements in Python.
 2. If…Else statement
 3. If…Elif…Else statement
 4. Nested If
+
+## Ternary Operator
+
+- Ternary operators also known as **conditional expressions** are operators that evaluate something based on a condition being true or false.
+- It was added to Python in version **2.5.**
+- It simply allows testing a condition in a **single line** replacing the multiline if-else making the code compact.
+- Syntax➖
+  ```
+  [on_true] if [expression] else [on_false]
+  ```
+- For ex-
+
+  ```
+  # to check whether a number is odd or even
+  a=10;
+  print("Even Number") if(a%2==0) else print("Odd Number");
+
+  x = 5
+  result = "Greater" if x > 10 else "Equal" if x == 10 else "Less"
+  print(result)
+  ```
