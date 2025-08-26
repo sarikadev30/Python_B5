@@ -343,3 +343,106 @@ There are four types of conditional statements in Python.
   result = "Greater" if x > 10 else "Equal" if x == 10 else "Less"
   print(result)
   ```
+
+## FOR LOOP
+
+## NESTED LOOPS
+
+## DATA TYPES
+
+### 1. Primitive Data Types (also called basic or built-in types)
+
+These are the most **basic types of data**, directly supported by the Python language.
+
+| Data Type | Description                      | Example         |
+| --------- | -------------------------------- | --------------- |
+| `int`     | Integer numbers                  | `10`, `-5`, `0` |
+| `float`   | Decimal (floating point) numbers | `3.14`, `-0.1`  |
+| `bool`    | Boolean values (True or False)   | `True`, `False` |
+| `str`     | Text (string of characters)      | `"Hello"`       |
+
+> **Note:** These are immutable (cannot be changed after creation).
+
+---
+
+### 2. Non-Primitive Data Types (also called complex or user-defined types)
+
+These are built using primitive types.
+They can store **multiple values** and offer **more functionality**.
+
+| Data Type         | Description                     | Example                 |
+| ----------------- | ------------------------------- | ----------------------- |
+| `list`            | Ordered, mutable collection     | `[1, 2, 3]`             |
+| `tuple`           | Ordered, immutable collection   | `(1, 2, 3)`             |
+| `set`             | Unordered, unique items         | `{1, 2, 3}`             |
+| `dict`            | Key-value pairs                 | `{"name": "Sam"}`       |
+| `array`           | Like lists, from `array` module | `array('i', [1, 2, 3])` |
+| `class`, `object` | Custom types defined by user    | OOP structures          |
+| `function`        | Callable object                 | `def greet(): ...`      |
+
+## What are Mutability and Immutability
+
+## Mutability
+
+In Python, mutability means you can directly modify an object after the creation
+. For example, a list is a mutable object. After creating a list, you can add, modify, or remove elements from it.
+
+## Immutability
+
+In Python, immutability means you cannot directly modify an object after the creation
+. For example, Tuple is an immutable object. After creating a tuple, you cannot add, modify, or remove elements from it.
+
+## Sets
+
+- Sets are used to store multiple items in a single variable.
+- Sets are declared using { } without a colon.
+- Set items are unordered (which means that the items in a set do not have a defined order), unchangeable (meaning that we cannot change the items after the set has been created), and do not allow duplicate values.
+- No fetching possible (No Indexing and Slicing)
+- We can add or delete the data.
+- Data within the sets are automatically sorted.
+- They contain only unique data. (**Data Duplication not possible**)
+- **Syntax ⇒ `{** item1,item2, item3, ... }`
+- **Example➖**
+  ```python
+  s={1,3,4,5,8}
+  print(s)           # {1, 3, 4, 5, 8}
+  print(type(s))     # <class 'set'>
+  ```
+- Since Sets consist of sorted and unique data, searching for a particular element within the set is very quick.
+
+## Tuples
+
+- Sibling of List
+- **Immutable Data Object** ➖ Once you create the tuple, you can’t manipulate it. (no addition, deletion, or replacement)
+- We can
+  - Create Tuple
+  - Indexing and Slicing
+  - Create a new tuple by merging two or more tuples.
+- A safer option for data collection
+  - **Example** ⇒ Students’ marks if stored in a list manipulation can be possible (as addition, deletion, and changes are applicable) but Tuple is **immutable** hence, safer than a list
+- When the objective is to collect the data and has no further objective of editing it ⇒ **Use TUPLE**
+
+## Dictionary
+
+- Python dictionary is an **ordered collection of items**.
+- As of Python version 3.7, dictionaries are *ordered*. In Python 3.6 and earlier, dictionaries are *unordered*.
+- Dictionaries are **optimized to retrieve values when the key is known.**
+- A dictionary is a collection that is **changeable** and **does not allow duplicates**.
+- Dictionaries are written **with curly brackets** and **have keys and values.**
+- Holds data as **`key-value`** pair
+- No concept of an index system and hence they are unordered.
+- To fetch the data we use keys.
+- A dictionary can’t have two keys with the same name. [ **keys must be unique and values can repeat**]
+- Dictionaries are mutable, so we can
+  - add a new key-value pair
+  - replace the value not a key
+  - delete a key-value pair
+- **Syntax**➖
+  ```python
+  dict={
+  	"key1": value,
+  	"key2": "value",
+  }
+  ```
+
+While the values can be of any data type and can repeat, keys must be of **immutable type (string, number, or tuple with immutable elements) and must be unique**.
